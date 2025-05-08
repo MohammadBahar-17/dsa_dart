@@ -6,18 +6,18 @@ A concise, well-tested collection of core data structures and algorithm implemen
 
 ## Table of Contents
 
-- [Overview](#overview)  
-- [Features](#features)  
-- [Contents](#contents)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-- [Usage](#usage)  
-- [Examples](#examples)  
-- [Testing](#testing)  
-- [Folder Structure](#folder-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [Overview](#overview)
+- [Features](#features)
+- [Contents](#contents)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Testing](#testing)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -31,7 +31,7 @@ This package collects implementations of fundamental data structures (lists, sta
 
 - **Core Data Structures**:  
   – ArrayList, LinkedList, Stack, Queue, Deque  
-  – Binary Trees, Heaps, Graphs, Hash Tables  
+  – Binary Trees, Heaps, Graphs, Hash Tables
 
 - **Essential Algorithms**:  
   – Sorting (QuickSort, MergeSort, HeapSort)  
@@ -52,17 +52,18 @@ This package collects implementations of fundamental data structures (lists, sta
 
 ## Contents
 
-- **Data Structures**  
-  - `lib/src/array_list.dart`  
-  - `lib/src/linked_list.dart`  
-  - `lib/src/stack.dart`  
-  - …  
+- **Data Structures**
 
-- **Algorithms**  
-  - `lib/src/sorting/quick_sort.dart`  
-  - `lib/src/searching/binary_search.dart`  
-  - `lib/src/graphs/dijkstra.dart`  
-  - …  
+  - `lib/src/array_list.dart`
+  - `lib/src/linked_list.dart`
+  - `lib/src/stack.dart`
+  - …
+
+- **Algorithms**
+  - `lib/src/sorting/quick_sort.dart`
+  - `lib/src/searching/binary_search.dart`
+  - `lib/src/graphs/dijkstra.dart`
+  - …
 
 ---
 
@@ -70,15 +71,17 @@ This package collects implementations of fundamental data structures (lists, sta
 
 ### Prerequisites
 
-- Dart SDK ≥ 2.12  
-- (Optional) Flutter SDK if integrating into Flutter apps  
+- Dart SDK ≥ 2.12
+- (Optional) Flutter SDK if integrating into Flutter apps
 
 ### Installation
 
 Add to your project’s `pubspec.yaml`:
+
 ```yaml
 dependencies:
   fundamental_dsa:
     git:
-      url: https://github.com/your-org/fundamental_dsa.git
+      url: https://github.com/mohammadbahar-17/fundamental_dsa.git
       ref: main
+```
